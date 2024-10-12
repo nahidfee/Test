@@ -128,3 +128,4 @@ class NotPx:
     
     def upgrade_reChargeSpeed(self):
         return self.request("get","/mining/boost/check/reChargeSpeed","reChargeSpeed")['reChargeSpeed']
+        
